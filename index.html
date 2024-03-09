@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/512/Calculator_512.png" type="image/x-icon">
+    <title>StreakScore🔥</title>
+  </head>
+  <body>
+    <div class="page">
+      <h1 class="head head1">Streak Score <span class="head head-sub">Calculator</span></h1>
+      <div>
+        <div class="inputs">
+          <input class="input" type="number" required id="initial" placeholder="Initial" onmousewheel="none"/>
+          <input class="input" type="number" required id="final" placeholder="Final"/>
+          <input class="input" type="number" required id="score" placeholder="Streak"/>
+        </div>
+        <div style="text-align: center">
+          <button class="btns" id="btn" onclick="getValues()">Calculate</button>
+        </div>
+      </div>
+      <div class="result result-success" style="background-color: black;">
+        <h2 class="sub-head" style="font-family: Georgia, 'Times New Roman', Times, serif;">Result</h2>
+        <p id="result">Welcome!</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
