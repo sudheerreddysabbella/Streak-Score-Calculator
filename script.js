@@ -10,7 +10,7 @@ function getValues() {
     res = "",
     resEl = document.getElementById("result");
   const need = final - initial;
-  if (need <= 0) {
+  if (need <= 0 || initial!=NaN || final!=NaN || score!=NaN) {
     res = "Hey! Check yours";
   } else {
     let i = 0;
