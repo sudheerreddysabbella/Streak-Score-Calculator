@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  color: rgb(237, 237, 236);
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.page {
+  background-color: #202021;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+}
+.sub-head {
+  color: bisque;
+  font-size: 23px;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0px;
+  padding-top: 12px;
+  font-size: 32px;
+}
+.head {
+  color: antiquewhite;
+  font-size: 16vw;
+  line-height: 0.9;
+  text-align: center;
+  /* padding: 16px;
+    padding-top: 32px; */
+  margin-top: -38px;
+  margin-bottom: 18px;
+  text-shadow: 0px 0px 2px #f9e4cc, 0px 0px 4px black;
+}
+.head-sub{
+  font-size: 19.3vw;
+}
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 12px;
+  column-gap: 12px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+.input {
+  border: none;
+  width: 45vw;
+  border-radius: 12px;
+  padding: 18px 26px;
+  margin: 0px;
+  font-size: 22px;
+  color: #202021;
+}
+.input:focus {
+  outline: none;
+  /* box-shadow: inset 4px 4px 10px black, 2px 2px 8px #f9e4cc; */
+}
+#score {
+  width: 60vw;
+}
+.btns {
+  border: none;
+  border-radius: 8px;
+  color: wheat;
+  font-size: 28px;
+  padding: 6px 12px;
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(62, 61, 61);
+  margin-top: 18px;
+}
+.loading {
+  cursor: crosshair;
+  opacity: 0.2;
+}
+.result {
+  font-family: cursive;
+  border: none;
+  background-color: azure;
+  border-radius: 12px;
+  margin: 32px;
+  margin-top: 28px;
+  padding: 0px 12px 12px 12px; 
+}
+.result-success {
+  animation: blink 3s infinite ease-in;
+}
+#result {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px;
+  padding: 12px;
+  text-align: center;
+  color: antiquewhite;
+}
+@keyframes blink {
+  0% {
+    box-shadow: 0px 0px 0px black;
+  }
+  40% {
+    box-shadow: 0px 0px 12px #f9e4cc;
+  }
+  90% {
+    box-shadow: 0px 0px 0px black;
+  }
+}
