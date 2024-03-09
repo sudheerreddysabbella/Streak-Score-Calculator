@@ -37,7 +37,7 @@ input[type="number"] {
 }
 .head {
   color: antiquewhite;
-  font-size: 16vw;
+  font-size: 10vw;
   line-height: 0.9;
   text-align: center;
   /* padding: 16px;
@@ -47,7 +47,7 @@ input[type="number"] {
   text-shadow: 0px 0px 2px #f9e4cc, 0px 0px 4px black;
 }
 .head-sub{
-  font-size: 19.3vw;
+  font-size: 12.5vw;
 }
 .inputs {
   display: flex;
