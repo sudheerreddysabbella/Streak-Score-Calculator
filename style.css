@@ -21,7 +21,7 @@ input[type="number"] {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  height: 100dvh;
   font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
     "Helvetica Neue", sans-serif;
 }
