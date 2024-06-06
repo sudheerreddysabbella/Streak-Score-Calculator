@@ -33,6 +33,7 @@ input[type="number"] {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin: 0px;
   padding-top: 12px;
+  padding-left: 6px;
   font-size: 32px;
 }
 .head {
