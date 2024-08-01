@@ -19,7 +19,7 @@ function getValues() {
       i += 1;
     }
     res =
-      "You need " + need + "<br>That will be completed within " + i + " Days";
+      "You need a Streak Score of " + need + ".<br>That will be completed within " + i + " Days<br>Stay Consistent!";
   }
   resEl.innerHTML = res;
 }
